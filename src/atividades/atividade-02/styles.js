@@ -6,7 +6,7 @@ const styles = StyleSheet.create({
         backgroundColor: '#fff',
         padding: 8,
         flex: 1,
-        alignItems: 'center',
+        alignItems: 'left',
         borderRadius: 20,
     },
     titulo: {
@@ -26,10 +26,25 @@ const styles = StyleSheet.create({
     },
     imagem: {
         height: RFPercentage(16),
-        width: RFPercentage(28),
-        width: '80%',
+        width: RFPercentage(22),
+        width: '26%',
         resizeMode: 'center',
-
+        borderRadius: 15,
+        borderWidth: 2,
+        marginTop: 10,
+        marginBottom: 10,
+        },
+    text: {
+        fontSize: RFPercentage(5),
+        fontWeight: 'bold',
+        borderWidth: 2,
+        borderRadius: 15,
+        borderColor: 'deepskyblue',
+        marginTop: 10,
+        marginBottom: 10,
+        width: '80%',
+        textAlign: 'right',
+        textAlignVertical: 'right', 
     },
    
     

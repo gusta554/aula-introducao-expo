@@ -8,7 +8,12 @@ function Atividade2 () {
     return(
         <View style={styles.container}>
                 <Text style={styles.titulo}>Atividade2</Text>
-                <Image source={img} style={styles.imagem} />  
+                <Image source={img} style={styles.imagem} />
+                <Text style={styles.texto}>nobru kkkkkkkkkkkkkkkk</Text>
+                <Image source={img} style={styles.imagem} />
+                <Image source={img} style={styles.imagem} />        
+                <Image source={img} style={styles.imagem} />
+               
         </View>
     );
 }
