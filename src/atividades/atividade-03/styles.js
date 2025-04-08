@@ -11,10 +11,10 @@ const styles = StyleSheet.create({
     }, 
     titulo: {
         fontSize: RFPercentage(3), 
-        color: 'deepskyblue', 
+        color: '#f00065', 
         fontWeight: 'bold', 
         borderWidth: 2, 
-        borderColor: 'deepskyblue', 
+        borderColor: '#f00065', 
         marginTop: 10, 
         marginBottom: 10, 
         padding: 8, 
@@ -25,11 +25,16 @@ const styles = StyleSheet.create({
         borderRadius: 20,
     }, 
     texto: {
-        fontSize: RFPercentage(2.2),  
+        fontSize: RFPercentage(2.2), 
+         
     }, 
     botaoAlert: {
         width: '100%',         
         margin: RFPercentage(1),
+        display: 'flex',
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginBottom: RFPercentage(5),
     }, 
     numero: {
         fontSize: RFPercentage(4), 
@@ -37,19 +42,43 @@ const styles = StyleSheet.create({
         margin: RFPercentage(2)
     }, 
     botao: {
-        backgroundColor: 'green', 
-        width: '70%', 
+        backgroundColor: '#f00065', 
+        width: '20%', 
         // height: RFPercentage(4), 
         borderRadius: RFPercentage(2), 
         alignItems: 'center', 
         justifyContent: 'center', 
         padding: RFPercentage(1),
+        borderWidth: 3,
+        borderColor: 'black',
     }, 
     txtBotao: {
         fontSize: RFPercentage(2), 
         color: '#fafafa', 
         fontWeight: 'bold', 
         letterSpacing: 1.5,
+    },
+    adicionar: {
+        backgroundColor: '#f00065', 
+        width: '20%', 
+        // height: RFPercentage(4), 
+        borderRadius: RFPercentage(2), 
+        alignItems: 'center', 
+        justifyContent: 'center', 
+        borderWidth: 3, 
+        padding: RFPercentage(1),
+        //marginTop: RFPercentage(2),
+    },
+    zerar: {
+        backgroundColor: '#f00065', 
+        width: '20%', 
+        // height: RFPercentage(4), 
+        borderRadius: RFPercentage(2), 
+        alignItems: 'center', 
+        justifyContent: 'center', 
+        borderWidth: 3, 
+        padding: RFPercentage(1),
+        marginTop: RFPercentage(2),
     },
 });
 
