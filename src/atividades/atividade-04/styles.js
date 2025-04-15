@@ -11,6 +11,7 @@ const styles = StyleSheet.create({
   titulo: {
     fontSize: RFPercentage(3),
     fontWeight: 'bold',
+    borderRadius: RFPercentage(4),
     borderWidth: 2,
     borderColor: 'deepskyblue',
     marginTop: 10,
