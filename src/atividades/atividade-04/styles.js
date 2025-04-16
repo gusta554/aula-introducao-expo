@@ -10,8 +10,8 @@ const styles = StyleSheet.create({
   },
   titulo: {
     fontSize: RFPercentage(3),
-    fontWeight: 'bold',
     borderRadius: RFPercentage(4),
+    fontWeight: 'bold',
     borderWidth: 2,
     borderColor: 'deepskyblue',
     marginTop: 10,
@@ -24,23 +24,24 @@ const styles = StyleSheet.create({
   },
   texto: {
     fontSize: RFPercentage(2.2),
-    color: 'deepskyblue',
+    color: 'red',
   },
   input:{
     borderWidth: RFPercentage(0.2),
     width: "100%",
     fontSize: RFPercentage(2),
     margin:RFPercentage(2),
-    borderRadius:RFPercentage(1),
+    borderRadius:RFPercentage(4),
+    borderColor: 'deepskyblue',
     },
     txtBotao: {
       fontSize: RFPercentage(2), 
-      color: '#black', 
+      color: 'black',  
       fontWeight: 'bold', 
       letterSpacing: 1.5,
   },
   botao: {
-        backgroundColor: '#abfa88', 
+        backgroundColor: 'purple', 
         width: '70%', 
         // height: RFPercentage(4), 
         borderRadius: RFPercentage(2), 

@@ -9,47 +9,32 @@ import styles from "./styles"; // Importando o objeto styles do arquivo styles.j
 function Exemplo4 () {
   const[txtInserido, setTxtInserido] = useState('');
   const[txtExibido, setTxtExibido] = useState('');
-  const[txtExibidos, setTxtExibidos] = useState('');
-
+  const[txtExibido2, setTxtExibido2] = useState('');
   return (
     
     <View style={styles.container}>
 
-      <Text style={styles.titulo}>Atividade4</Text>
-      
-      <Text style={styles.texto}>{txtInserido}</Text>
-      <Text>Nome</Text>
+      <Text style={styles.titulo}>atividade 4</Text>
       <TextInput style={styles.input} 
-        onChangeText={(valor) =>setTxtInserido(valor)}/>
-       
-        <Text style={styles.texto}>{txtInserido}</Text>
-        <Text>Sobrenome</Text>
-      <TextInput style={styles.input} 
-        onChangeText={(valor) =>setTxtInserido(valor)}/>
+        onChangeText={(valor) =>setTxtInserido(valor)}
+        value={txtInserido}/>
 
-      <Text style={styles.texto}> {txtExibido}</Text>
+     
+      <TextInput style={styles.input} 
+        onChangeText={(valor) =>setTxtExibido2(valor)}
+        value={txtExibido2}/>
+
+<Text style={styles.texto}> {txtExibido}</Text>
       <TouchableOpacity style={styles.botao}
         onPress={() => {
-          setTxtExibido(txtInserido);
-        }}>
-        <Text style={styles.txtBotao}>Exibir texto digitado 
-        </Text>
-
-        //------
-        
-        </TouchableOpacity>
-
-        <Text style={styles.texto}> {txtExibido}</Text>
-      <TouchableOpacity style={styles.botao}
-        onPress={() => {
-          setTxtExibido(txtInserido);
+          setTxtExibido(txtInserido + ' ' + txtExibido2);
+          setTxtInserido('');
+          setTxtExibido2('');
         }}>
         <Text style={styles.txtBotao}>Exibir texto digitado 
         </Text>
 
         </TouchableOpacity>
-        
-        
 
     </View>
 
