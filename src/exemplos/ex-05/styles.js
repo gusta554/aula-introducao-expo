@@ -48,9 +48,13 @@ const styles = StyleSheet.create({
     button: {
         backgroundColor: '#e91e63',
         height: 40,
+        width: 300,
         justifyContent: 'center',
+        alignItems: 'center',
         borderRadius: 10,
         marginTop: 20,
+
+
     },
     textLabel: {
         fontSize: 16,
@@ -59,10 +63,10 @@ const styles = StyleSheet.create({
     },
     textButton: {
         fontSize: 22,
-        color: '#c51162',
+        color: 'black',
         fontWeight: 'bold',
-    },
 
+    },
     
 });
 
