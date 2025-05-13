@@ -21,6 +21,7 @@ import Atividade6 from './src/atividades/atividade-06';
 
 
 
+
 export default function App() {
   return (
     <View style={styles.container}>

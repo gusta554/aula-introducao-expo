@@ -20,7 +20,7 @@ export default function Exemplo6() {
 
     return (
         <View style={styles.container}>
-            <Text style={styles.titulo}>Atividade 6</Text>
+            <Text style={styles.titulo}>Exemplo 6</Text>
             <View style={styles.ladoalado}>
                 <Input placeholder='Peso' valor={peso} atualizaValor={setPeso} />
                 <Input placeholder='Altura' valor={altura} atualizaValor={setAltura} />
