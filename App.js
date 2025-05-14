@@ -17,6 +17,7 @@ import Atividade1 from './src/atividades/atividade-01';
 import Atividade2 from './src/atividades/atividade-02';
 import Atividade3 from './src/atividades/atividade-03';
 import Atividade4 from './src/atividades/atividade-04';
+import Atividade5 from './src/atividades/atividade-05';
 import Atividade6 from './src/atividades/atividade-06';
 
 
