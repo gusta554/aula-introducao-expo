@@ -9,13 +9,17 @@ const styles = StyleSheet.create({
         fontSize: RFValue(20),
         fontWeight: 'bold',
         color: 'deepskyblue',
+        marginTop: RFValue(10),
+        marginBottom: RFValue(20),
     },
     botao: {
-        borderWidth: RFValue(1),
+        alignItems: 'center',
+        borderWidth: RFValue(3),
         borderColor: 'deepskyblue',
-        borderRadius: RFValue(2),
-        padding: RFValue(1),
+        borderRadius: RFValue(10),
+        padding: RFValue(5),
         width: '80%',
+        marginBottom: RFValue(10),
     },
 });
 
