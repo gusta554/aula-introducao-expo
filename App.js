@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 
 import Constants from 'expo-constants';
 
+
 import Exemplo1 from './src/exemplos/ex-01';
 import Exemplo2 from './src/exemplos/ex-02';
 import mensagem from './src/exemplos/ex-02/mensagem';
@@ -11,6 +12,7 @@ import Exemplo4 from './src/exemplos/ex-04';
 import Exemplo5 from './src/exemplos/ex-05';
 import Exemplo6 from './src/exemplos/ex-06';
 import Exemplo7 from './src/exemplos/ex-07';
+import Exemplo8 from './src/exemplos/ex-08';
 
 
 //atividade 
@@ -25,10 +27,11 @@ import Atividade7 from './src/atividades/atividade-07';
 
 
 
+
 export default function App() {
   return (
     <View style={styles.container}>
-      <Atividade7/>
+      <Exemplo8/>
       <StatusBar style="ligth" />
     </View>
   );
@@ -37,7 +40,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
+    backgroundColor: '#fff',
     //alignItems: 'center',
     //justifyContent: 'center',
     padding: 8,
