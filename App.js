@@ -26,13 +26,13 @@ import Atividade6 from './src/atividades/atividade-06';
 import Atividade7 from './src/atividades/atividade-07';
 
 
-
+import Navegacao from './src/rotas/containerNavegacao';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Sobre/>
+      <Navegacao/>
       <StatusBar style="ligth" />
     </View>
   );
